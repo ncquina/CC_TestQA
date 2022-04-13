@@ -31,32 +31,6 @@ Login To ERP
 #    Page Load Start
 #    Wait Until Element Is Visible    ${btn_login}    ${wait4}
     Click Element                    ${btn_login}
-    #Wait Until Element is Visible    ${suc_log}    ${wait4}
-#    Wait Until Page Contains    ${suc_log}
-#    Set Selenium Implicit Wait    60s
-#   Page Load End
-Page
     Wait Until Element Is Visible    ${suc_log}     
-    
-#    Get Value    
-  
-       
-  Get Time    Page 
-#    Sleep    ${wait2}
-#    selenium
-    
-   # Wait For Condition    test   
-    
- 
-#Page Load Start
-    # Set Selenium Implicit Wait    60s
-    # Wait Until Page Contains Element    ${btn_login}    
-# Page Load End
-    # Wait Until Location Is Not   ${URL}    
-    # Get Selenium Implicit Wait
-    
-# Page Load
-    # Page Load Start
-    # Login To ERP
-    # Page Load End
-    
+           
+#
